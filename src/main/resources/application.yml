@@ -1,0 +1,15 @@
+#server config
+server:
+  port: 5000
+
+# database config
+spring:
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML
+
+# image upload directory config
+image:
+  image-dir: src/main/resources/upload/
